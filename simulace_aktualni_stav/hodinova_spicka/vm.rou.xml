@@ -31,10 +31,36 @@
 </configuration>
 -->
 
+<!--
+
+1 IN  196319589
+1 OUT 196319575#1
+2  -196319631#4
+3  367502764#0
+4  291628004#3
+
+-->    
+
     <vehicles>
-       
-        <flow id="f" begin="0" end="100" number="23" from="446160673" to="367502762#3"/>
-        <flow id="f2" begin="0" end="100" number="23" from="31018630#1" to="36841516#2"/>
+        <flow id="f11" begin="0" end="3600" number="0" from="196319589" to="196319575#1" via="392944087#2"/>
+        <flow id="f12" begin="0" end="3600" number="2330" from="196319589" to="-196319631#4" via="392944087#2" />
+        <flow id="f13" begin="0" end="3600" number="2660" from="196319589" to="367502764#0" via="392944087#2" />
+        <flow id="f14" begin="0" end="3600" number="1850" from="196319589" to="291628004#3" via="392944087#2" />
+        
+        <flow id="f21" begin="0" end="3600" number="1760" from="-196319631#4" to="196319575#1" via="392944087#2" />
+        <flow id="f22" begin="0" end="3600" number="0" from="-196319631#4" to="-196319631#4" via="392944087#2" />
+        <flow id="f23" begin="0" end="3600" number="1600" from="-196319631#4" to="367502764#0" via="392944087#2" />
+        <flow id="f24" begin="0" end="3600" number="1520" from="-196319631#4" to="291628004#3" via="392944087#2" />
+
+        <flow id="f31" begin="0" end="3600" number="2230" from="367502764#0" to="196319575#1" via="392944087#2" />
+        <flow id="f32" begin="0" end="3600" number="1360" from="367502764#0" to="-196319631#4" via="392944087#2" />
+        <flow id="f33" begin="0" end="3600" number="0" from="367502764#0" to="367502764#0" via="392944087#2" />
+        <flow id="f34" begin="0" end="3600" number="480" from="367502764#0" to="291628004#3" via="392944087#2" />
+
+        <flow id="f41" begin="0" end="3600" number="1360" from="291628004#3" to="196319575#1" via="392944087#2" />
+        <flow id="f42" begin="0" end="3600" number="1880" from="291628004#3" to="-196319631#4" via="392944087#2" />
+        <flow id="f43" begin="0" end="3600" number="480" from="291628004#3" to="367502764#0" via="392944087#2" />
+        <flow id="f44" begin="0" end="3600" number="0" from="291628004#3" to="291628004#3" via="392944087#2" />
     </vehicles>
 
 
