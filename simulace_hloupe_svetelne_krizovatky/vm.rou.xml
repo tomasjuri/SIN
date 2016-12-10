@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <vehicles>
-        <vType id="myCar" accel="2.6" decel="4.5" maxSpeed="50"/>
-        <vType id="myTruck" accel="1.9" decel="3.8" maxSpeed="40" guiShape="truck" color="192,192,192"/>
-        <vType id="myBus" accel="2.2" decel="4.1" maxSpeed="35" guiShape="bus" color="255,0,0"/>
+        <vType id="myCar" accel="2.3" decel="4.5" maxSpeed="50"/>
+        <vType id="myTruck" accel="1.6" decel="3.8" maxSpeed="40" guiShape="truck" color="192,192,192"/>
+        <vType id="myBus" accel="1.9" decel="4.1" maxSpeed="35" guiShape="bus" color="255,0,0"/>
         
-        <!-- kazdy smer plati: 4/7 auta, 2/7 truck, 1/7 bus -->
+        <!-- pro kazdy smer plati: 4/7 auta, 2/7 truck, 1/7 bus -->
 
         <!-- 233/7=33 -->
             <flow id="f121" begin="0" end="3600" number="132" from="196319589" to="196319631#4" type="myCar"/>
