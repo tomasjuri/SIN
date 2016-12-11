@@ -1,0 +1,10 @@
+<additional>
+   <tlLogic id="-14" programID="myTrafficLights" offset="0" type="actuated">
+   	<param key="max-gap" value="4.0"/>
+   	<param key="detector-gap" value="3.0"/>
+   	<phase duration="25" state="GGGGrrrrGGGGrrrr" minDur="5" maxDur="30" />
+   	<phase duration="3"  state="yyyyuuuuyyyyuuuu"/>
+   	<phase duration="25" state="rrrrGGGGrrrrGGGG" minDur="5" maxDur="30"/>
+   	<phase duration="3"  state="uuuuyyyyuuuuyyyy"/>
+   </tlLogic>
+</additional>

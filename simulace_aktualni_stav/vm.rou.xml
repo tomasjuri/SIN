@@ -6,7 +6,6 @@
 
         <!-- pro kazdy smer plati: 4/7 auta, 2/7 truck, 1/7 bus -->
 
-        <!-- *2 pro truck -->
         <!-- 233/7=33 -->
             <flow id="f121" begin="0" end="3600" number="133" from="196319589" to="-196319631#4" via="-23415" type="myCar"/>
             <flow id="f122" begin="0" end="3600" number="134" from="196319589" to="-196319631#4" via="-23415" type="myTruck"/>

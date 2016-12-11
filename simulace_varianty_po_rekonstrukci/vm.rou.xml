@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <vehicles>
-        <vType id="myCar" accel="2.3" decel="4.5" maxSpeed="50"/>
-        <vType id="myTruck" accel="1.6" decel="3.8" maxSpeed="40" guiShape="truck" color="192,192,192"/>
-        <vType id="myBus" accel="1.9" decel="4.1" maxSpeed="35" guiShape="bus" color="255,0,0"/>
+        <vType id="myCar" accel="2.5" decel="4.5" maxSpeed="50"/>
+        <vType id="myTruck" accel="1.5" decel="3.8" maxSpeed="40" guiShape="truck" color="192,192,192"/>
+        <vType id="myBus" accel="2.2" decel="4.1" maxSpeed="40" guiShape="bus" color="255,0,0"/>
 
         <!-- pro kazdy smer plati: 4/7 auta, 2/7 truck, 1/7 bus -->
 
         <!-- 233/7=33 -->
-            <flow id="f121" begin="0" end="3600" number="132" from="196319589" to="-196319631#4" via="-18416" type="myCar"/>
-            <flow id="f122" begin="0" end="3600" number="66" from="196319589" to="-196319631#4" via="-18416" type="myTruck"/>
+            <flow id="f121" begin="0" end="3600" number="133" from="196319589" to="-196319631#4" via="-18416" type="myCar"/>
+            <flow id="f122" begin="0" end="3600" number="134" from="196319589" to="-196319631#4" via="-18416" type="myTruck"/>
             <flow id="f123" begin="0" end="3600" number="33" from="196319589" to="-196319631#4" via="-18416" type="myBus"/>
         <!-- 266/7=38 -->
             <flow id="f131" begin="0" end="3600" number="152" from="196319589" to="367502764#0" via="-18416" type="myCar"/>
-            <flow id="f132" begin="0" end="3600" number="76" from="196319589" to="367502764#0" via="-18416" type="myTruck"/>
+            <flow id="f132" begin="0" end="3600" number="152" from="196319589" to="367502764#0" via="-18416" type="myTruck"/>
             <flow id="f133" begin="0" end="3600" number="38" from="196319589" to="367502764#0" via="-18416" type="myBus"/>
         <!-- 185/7=26 -->
-            <flow id="f141" begin="0" end="3600" number="104" from="196319589" to="291628004#3" via="-18416" type="myCar"/>
-            <flow id="f142" begin="0" end="3600" number="52" from="196319589" to="291628004#3" via="-18416" type="myTruck"/>
+            <flow id="f141" begin="0" end="3600" number="106" from="196319589" to="291628004#3" via="-18416" type="myCar"/>
+            <flow id="f142" begin="0" end="3600" number="106" from="196319589" to="291628004#3" via="-18416" type="myTruck"/>
             <flow id="f143" begin="0" end="3600" number="26" from="196319589" to="291628004#3" via="-18416" type="myBus"/>
         
         <!-- 176/7=25 -->
-            <flow id="f211" begin="0" end="3600" number="100" from="-196319631#4" to="196319575#1" via="-23411" type="myCar"/>
+            <flow id="f211" begin="0" end="3600" number="101" from="-196319631#4" to="196319575#1" via="-23411" type="myCar"/>
             <flow id="f212" begin="0" end="3600" number="50" from="-196319631#4" to="196319575#1" via="-23411" type="myTruck"/>
             <flow id="f213" begin="0" end="3600" number="25" from="-196319631#4" to="196319575#1" via="-23411" type="myBus"/>
         <!-- 152/7=22 -->
-            <flow id="f231" begin="0" end="3600" number="88" from="-196319631#4" to="291628004#3" via="196319590#1" type="myCar"/>
-            <flow id="f232" begin="0" end="3600" number="44" from="-196319631#4" to="291628004#3" via="196319590#1" type="myTruck"/>
+            <flow id="f231" begin="0" end="3600" number="87" from="-196319631#4" to="291628004#3" via="196319590#1" type="myCar"/>
+            <flow id="f232" begin="0" end="3600" number="43" from="-196319631#4" to="291628004#3" via="196319590#1" type="myTruck"/>
             <flow id="f233" begin="0" end="3600" number="22" from="-196319631#4" to="291628004#3" via="196319590#1" type="myBus"/>
         <!-- 160/7=23 -->
-            <flow id="f241" begin="0" end="3600" number="92" from="-196319631#4" to="367502764#0" via="196319590#1" type="myCar"/>
+            <flow id="f241" begin="0" end="3600" number="91" from="-196319631#4" to="367502764#0" via="196319590#1" type="myCar"/>
             <flow id="f242" begin="0" end="3600" number="46" from="-196319631#4" to="367502764#0" via="196319590#1" type="myTruck"/>
             <flow id="f243" begin="0" end="3600" number="23" from="-196319631#4" to="367502764#0" via="196319590#1" type="myBus"/>
 
@@ -37,24 +37,24 @@
             <flow id="f312" begin="0" end="3600" number="96" from="367502764#0" to="196319575#1" via="-18414" type="myTruck"/>
             <flow id="f313" begin="0" end="3600" number="48" from="367502764#0" to="196319575#1" via="-18414" type="myBus"/>
         <!-- 136/7=19 -->
-            <flow id="f321" begin="0" end="3600" number="76" from="367502764#0" to="-196319631#4" via="-23619" type="myCar"/>
-            <flow id="f322" begin="0" end="3600" number="38" from="367502764#0" to="-196319631#4" via="-23619" type="myTruck"/>
+            <flow id="f321" begin="0" end="3600" number="78" from="367502764#0" to="-196319631#4" via="-23619" type="myCar"/>
+            <flow id="f322" begin="0" end="3600" number="39" from="367502764#0" to="-196319631#4" via="-23619" type="myTruck"/>
             <flow id="f323" begin="0" end="3600" number="19" from="367502764#0" to="-196319631#4" via="-23619" type="myBus"/>
         <!-- 48/7=7 -->
-            <flow id="f341" begin="0" end="3600" number="28" from="367502764#0" to="291628004#3" via="-18414" type="myCar"/>
+            <flow id="f341" begin="0" end="3600" number="27" from="367502764#0" to="291628004#3" via="-18414" type="myCar"/>
             <flow id="f342" begin="0" end="3600" number="14" from="367502764#0" to="291628004#3" via="-18414" type="myTruck"/>
             <flow id="f343" begin="0" end="3600" number="7" from="367502764#0" to="291628004#3" via="-18414" type="myBus"/>
 
         <!-- 136/7=19 -->
-            <flow id="f411" begin="0" end="3600" number="76" from="291628004#3" to="196319575#1" via="196319629#1" type="myCar"/>
-            <flow id="f412" begin="0" end="3600" number="38" from="291628004#3" to="196319575#1" via="196319629#1" type="myTruck"/>
+            <flow id="f411" begin="0" end="3600" number="78" from="291628004#3" to="196319575#1" via="196319629#1" type="myCar"/>
+            <flow id="f412" begin="0" end="3600" number="39" from="291628004#3" to="196319575#1" via="196319629#1" type="myTruck"/>
             <flow id="f413" begin="0" end="3600" number="19" from="291628004#3" to="196319575#1" via="196319629#1" type="myBus"/>
         <!-- 188/7=27 -->
-            <flow id="f421" begin="0" end="3600" number="108" from="291628004#3" to="-196319631#4" via="196319629#1" type="myCar"/>
+            <flow id="f421" begin="0" end="3600" number="107" from="291628004#3" to="-196319631#4" via="196319629#1" type="myCar"/>
             <flow id="f422" begin="0" end="3600" number="54" from="291628004#3" to="-196319631#4" via="196319629#1" type="myTruck"/>
             <flow id="f423" begin="0" end="3600" number="27" from="291628004#3" to="-196319631#4" via="196319629#1" type="myBus"/>
         <!-- 48/7=7 -->
-            <flow id="f431" begin="0" end="3600" number="28" from="291628004#3" to="367502764#0" via="-23725" type="myCar"/>
+            <flow id="f431" begin="0" end="3600" number="27" from="291628004#3" to="367502764#0" via="-23725" type="myCar"/>
             <flow id="f432" begin="0" end="3600" number="14" from="291628004#3" to="367502764#0" via="-23725" type="myTruck"/>
             <flow id="f433" begin="0" end="3600" number="7" from="291628004#3" to="367502764#0" via="-23725" type="myBus"/>
     </vehicles>
